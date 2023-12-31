@@ -8,15 +8,12 @@
     border-radius: 4px;
 }
 
-.Weather form {
-    margin-bottom: 20px;
-}
 
 .Weather h1 {
     font-size: 24px;
     font-weight: 100;
     line-height: 29px;
-    margin: 20px 0 0 0;
+
 }
 
 .Weather ul {
