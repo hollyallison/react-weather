@@ -1,11 +1,10 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
-import "./Weatherinfo.css";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="WeatherInfo mt-5">
       <div className="left-container">
         <h1>{props.data.city}</h1>
         <ul>

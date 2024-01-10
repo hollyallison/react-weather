@@ -20,7 +20,7 @@ useEffect(() => {
   }
     if (loaded){
   return (
-    <div className="weatherforecast">
+    <div className="weatherforecast m-5 align-middle">
       <div className="row">
         {forecast.map(function(dailyForecast, index) {
           if (index < 5){
